@@ -61,8 +61,14 @@
     border: 1px solid ;
     border-radius: 10px;
     padding:1rem;
-    font-size: 1.3rem;
+   
 
+}
+.current h6{
+    font-size: 1.5rem;
+}
+.current h3{
+    text-align: center;
 
 }
 .current img
@@ -81,7 +87,8 @@
 }
 
 .forecast h2{
-    margin-bottom: 1.5rem;
+  
+    margin-bottom: 3rem;
     
 }
 .card{
@@ -182,4 +189,6 @@
     padding: 0 10px;
     color: #999;
   }
+
+
 

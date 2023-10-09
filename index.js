@@ -1,4 +1,4 @@
-
+//https://www.codingnepalweb.com/weather-app-project-html-javascript/
 const locButton=document.querySelector(".current-city");
 const cityInput=document.querySelector(".input-btn");
 const mainCard=document.querySelector(".current");
@@ -81,7 +81,7 @@ function updateMainCard(info)
 
     mainCard.innerHTML=`<h3>${city.toUpperCase()} (${date})</h3>
    <br>
-    <img src="assets/${imgName}.png" alt="weather-img height="30%" width="60%"" >
+    <img src="assets/${imgName}.png" alt="weather-img height="20%" width="40%"" >
                         <h6>Temperature: ${temp}&degC</h3>
                         <h6>Wind: ${wind} kmph</h3>
                         <h6>Visibility: ${vis}</h6>
